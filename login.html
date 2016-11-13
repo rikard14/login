@@ -1,0 +1,25 @@
+<!DOCTYPE html><!-- HTML5 --> 
+<html lang='sv'><!-- Talsyntes på svenska -->
+	<head> 
+		<meta charset='utf-8' />  <!-- för att få å, ä och ö m.m. --> 
+		<title>Webbutveckling</title> <!-- Syns i fliken -->
+		<link rel='stylesheet' href='style.css'/> <!-- Länk till stildokument -->
+	</head> 
+	<body><!--sidans innehåll--> 
+		<!-- skickat formulär behandlas i filen login.php -->
+		<form action="login.php" method="post" >
+			<p>
+				<label for="id-username">Användarnamn</label>
+				<input name="element-username" id="id-username" required="required"/>
+			</p>
+			<p>
+				<label for="id-password">Lösenord</label>
+				<input name="element-password" id="id-password" type="password" required="required"/>
+			</p>
+			<p>
+				<input type="submit" type="password" value="login" />
+			</p>
+		</form>
+
+	</body> 
+</html>
