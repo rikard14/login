@@ -48,7 +48,7 @@
   	<head> 
   
       	<meta charset='utf-8' />  <!-- för att få å, ä och ö m.m. --> 
-      	<title>Webbutveckling</title> <!-- Syns i fliken -->
+      	<title>Hantera inloggning</title> <!-- Syns i fliken -->
       	<link rel='stylesheet' href='style.css'/> <!-- Länk till stildokument -->
   	</head> 
   	<body><!--sidans innehåll--> 
